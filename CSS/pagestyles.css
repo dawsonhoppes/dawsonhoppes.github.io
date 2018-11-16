@@ -1,0 +1,10 @@
+help {
+column-count = 3;
+column-gap = 40px;
+
+}
+
+
+img {
+column-span = 1
+}
