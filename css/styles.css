@@ -392,6 +392,22 @@ padding: 10%;
 
 }
 
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
 /*animation*/
 .front { 
    background-image: url("../img/stamp/front.jpg");
@@ -405,7 +421,7 @@ padding: 10%;
 }
 
 .contact { 
-   background-image: url("../img/contact/sup.jpg");
+   background-image: url("../img/contact/hello.jpg");
   background-color: #cccccc;
   height: 600px;
   background-attachment: fixed;
