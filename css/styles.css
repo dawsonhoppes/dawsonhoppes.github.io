@@ -405,7 +405,7 @@ padding: 10%;
 }
 
 .contact { 
-   background-image: url("../img/sup.jpg");
+   background-image: url("../img/contact/sup.jpg");
   background-color: #cccccc;
   height: 600px;
   background-attachment: fixed;
@@ -493,7 +493,7 @@ padding: 10%;
 }
 
 .summary { 
-   background-image: url("../img/background.jpg");
+   background-image: url("../img/contact/background.jpg");
   background-color: #cccccc;
   height: 600px;
   background-attachment: fixed;
@@ -504,7 +504,7 @@ padding: 10%;
 }
 
 .car { 
-   background-image: url("../img/car.jpg");
+   background-image: url("../img/contact/car.jpg");
   background-color: #cccccc;
   height: 600px;
   background-attachment: fixed;
