@@ -1385,7 +1385,54 @@ top: 0;
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }	
-		
+
+.contact {
+        background-attachment: scroll;
+    }
+    
+.front {
+        background-attachment: scroll;
+    }
+    
+.pole {
+        background-attachment: scroll;
+    }
+    
+.what {
+        background-attachment: scroll;
+    }
+    
+.rating {
+        background-attachment: scroll;
+    }
+
+.results {
+        background-attachment: scroll;
+    }
+    
+.table {
+        background-attachment: scroll;
+    }
+    
+.finaldivide {
+        background-attachment: scroll;
+    }
+    
+.conclusion {
+        background-attachment: scroll;
+    }
+    
+.summary {
+        background-attachment: scroll;
+    }
+    
+.car {
+        background-attachment: scroll;
+    }
+
+
+
+
 /* footer */
 		footer {
 		  text-align: center;
