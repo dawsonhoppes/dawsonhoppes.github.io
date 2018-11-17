@@ -26,6 +26,7 @@ font-weight: 170;
 text-transform: uppercase;
 letter-spacing: 3px;
 font-size: 30px;
+text-decoration: none;
 
 }
 
@@ -292,6 +293,14 @@ font-size: 20px;
 color: #b0aca8;
 }
 
+p12 {
+font-family: 'Open Sans', sans-serif;
+font-weight: 170;
+line-height: 150%;
+font-size: 20px;
+color: #a5a29f;
+}
+
 .light-font {
 color: white;
 }
@@ -554,6 +563,25 @@ padding: 10%;
 
 }
 
+.parallaxtextindex {
+  text-align: left;
+  position: relative;
+  top: 50%;
+  left: 105%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.text-block {
+    position: absolute;
+    top: 30%;
+    left: 52%;
+    right: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 .hideme
 {
     opacity:0;
@@ -632,17 +660,30 @@ text-align: left;
 }
 
 .welcome {
+   background-image: url("../img/index/intro.png");
+  height: 550px;
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  z-index: -1; 
+
+}
+
+/*.welcome {
 margin-top: 3%;
 margin-left: 8%;
 margin-right: 5%;
 margin-bottom: 5%;
+background-color: #deddda;
 }
+*/
 
 .welcome2 {
-margin-top: 7%;
+margin-top: 10%;
 margin-left: 5%;
 margin-right: 5%;
-margin-bottom: 10%;
+margin-bottom: 15%;
 }
 
 .skills {
