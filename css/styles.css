@@ -1338,6 +1338,59 @@ top: 0;
 				margin: auto;
 
 			}
+			
+			.letstalk {
+				-ms-flex: 100%;
+				flex: 100%;
+				max-width: 100%;
+				margin: auto;
+
+			}
+			
+			.contact {
+        background-attachment: scroll;
+    }
+    
+.front {
+        background-attachment: scroll;
+    }
+    
+.pole {
+        background-attachment: scroll;
+    }
+    
+.what {
+        background-attachment: scroll;
+    }
+    
+.rating {
+        background-attachment: scroll;
+    }
+
+.results {
+        background-attachment: scroll;
+    }
+    
+.table {
+        background-attachment: scroll;
+    }
+    
+.finaldivide {
+        background-attachment: scroll;
+    }
+    
+.conclusion {
+        background-attachment: scroll;
+    }
+    
+.summary {
+        background-attachment: scroll;
+    }
+    
+.car {
+        background-attachment: scroll;
+    }
+			
 			.columnapptext {
 				-ms-flex: 100%;
 				flex: 100%;
@@ -1519,49 +1572,7 @@ top: 0;
 				flex: 100%;
 				max-width: 100%;
 			}
-			.contact {
-        background-attachment: scroll;
-    }
-    
-.front {
-        background-attachment: scroll;
-    }
-    
-.pole {
-        background-attachment: scroll;
-    }
-    
-.what {
-        background-attachment: scroll;
-    }
-    
-.rating {
-        background-attachment: scroll;
-    }
-
-.results {
-        background-attachment: scroll;
-    }
-    
-.table {
-        background-attachment: scroll;
-    }
-    
-.finaldivide {
-        background-attachment: scroll;
-    }
-    
-.conclusion {
-        background-attachment: scroll;
-    }
-    
-.summary {
-        background-attachment: scroll;
-    }
-    
-.car {
-        background-attachment: scroll;
-    }
+			
 		}
 		
 		
