@@ -657,9 +657,11 @@ text-align: left;
 }
 
 .colored {
+background-color: #f3f2f1;
+padding: 2%;
 }
 
-.welcome {
+/*.welcome {
    background-image: url("../img/index/intro.png");
   height: 600px;
   background-attachment: fixed;
@@ -668,19 +670,18 @@ text-align: left;
     background-size: cover;
   z-index: -1; 
 
+} */
+
+.welcome {
+margin-top: 0%;
+margin-left: 8%;
+margin-right: 8%;
+margin-bottom: 0%;
 }
 
-/*.welcome {
-margin-top: 3%;
-margin-left: 8%;
-margin-right: 5%;
-margin-bottom: 5%;
-background-color: #deddda;
-}
-*/
 
 .welcome2 {
-margin-top: 10%;
+margin-top: 5%;
 margin-left: 5%;
 margin-right: 5%;
 margin-bottom: 15%;
@@ -1121,6 +1122,13 @@ top: 0;
 		margin: auto;
 		}
 		
+		.indexintro {
+		max-width: 50%;
+		padding: 4%;	
+		position: relative;	
+		margin: auto;
+		}
+		
 		.letstalk {
 		max-width: 50%;
 		padding: 5%;	
@@ -1322,6 +1330,14 @@ top: 0;
         background-attachment: scroll;
     }
 }
+
+			.indexintro {
+				-ms-flex: 100%;
+				flex: 100%;
+				max-width: 100%;
+				margin: auto;
+
+			}
 			.columnapptext {
 				-ms-flex: 100%;
 				flex: 100%;
