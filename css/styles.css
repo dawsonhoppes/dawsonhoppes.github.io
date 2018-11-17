@@ -681,10 +681,10 @@ margin-bottom: 0%;
 
 
 .welcome2 {
-margin-top: 5%;
+margin-top: 8%;
 margin-left: 5%;
 margin-right: 5%;
-margin-bottom: 5%;
+margin-bottom: 8%;
 }
 
 .skills {
@@ -1479,6 +1479,12 @@ top: 0;
 				max-width: 100%;
 				margin: auto;
 			}
+				.column3 {
+				-ms-flex: 100%;
+				flex: 100%;
+				max-width: 100%;
+				margin: auto;
+			}
 			
 		}
 		
@@ -1509,12 +1515,7 @@ top: 0;
 				max-width: 100%;
 			}
 			
-			.column3 {
-				-ms-flex: 100%;
-				flex: 100%;
-				max-width: 100%;
-				margin: auto;
-			}
+		
 			
 
 			
