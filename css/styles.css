@@ -1347,49 +1347,7 @@ top: 0;
 
 			}
 			
-			.contact {
-        background-attachment: scroll;
-    }
-    
-.front {
-        background-attachment: scroll;
-    }
-    
-.pole {
-        background-attachment: scroll;
-    }
-    
-.what {
-        background-attachment: scroll;
-    }
-    
-.rating {
-        background-attachment: scroll;
-    }
-
-.results {
-        background-attachment: scroll;
-    }
-    
-.table {
-        background-attachment: scroll;
-    }
-    
-.finaldivide {
-        background-attachment: scroll;
-    }
-    
-.conclusion {
-        background-attachment: scroll;
-    }
-    
-.summary {
-        background-attachment: scroll;
-    }
-    
-.car {
-        background-attachment: scroll;
-    }
+			
 			
 			.columnapptext {
 				-ms-flex: 100%;
@@ -1522,6 +1480,26 @@ top: 0;
 				margin: auto;
 			}
 			
+		}
+		
+		@media only screen and (max-width: 480px) {
+		.front,
+			.pole,
+			.what,
+			.rating,
+			.results,
+			.table,
+			.finalsdivide,
+			.conclusion,
+			.summary,
+			.car,
+			.contact {
+        -moz-background-size: auto;
+        -webkit-background-size: auto;
+	background-attachment: scroll;
+	background-position: top;
+        background-size: auto;
+    }
 		}
 		
 		@media screen and (max-width: 1100px) {
