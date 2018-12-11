@@ -1478,12 +1478,7 @@ top: 0;
 				margin-bottom: 30%;
 			}
 			
-			.column4 {
-				-ms-flex: 100%;
-				flex: 100%;
-				max-width: 100%;
-				margin: auto;
-			}
+			
 			
 			.column3 {
 				-ms-flex: 100%;
@@ -1499,12 +1494,7 @@ top: 0;
 				margin: auto;
 			}
 			
-			.column7 {
-				-ms-flex: 100%;
-				flex: 100%;
-				max-width: 100%;
-				margin: auto;
-			}
+			
 				.column3 {
 				-ms-flex: 100%;
 				flex: 100%;
