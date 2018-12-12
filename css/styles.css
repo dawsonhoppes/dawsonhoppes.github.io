@@ -1173,6 +1173,14 @@ top: 0;
 		margin: auto;
 		}
 		
+		.columnapptextleft {
+		max-width: 50%;
+		padding: 10px;	
+		position: relative;	
+		margin: auto;
+		text-align: left;
+		}
+		
 		.indexintro {
 		max-width: 65%;
 		padding: 4%;	
@@ -1406,6 +1414,13 @@ top: 0;
 				flex: 100%;
 				max-width: 100%;
 				margin: auto;
+
+			}
+			
+			.columnapptextleft {
+				-ms-flex: 100%;
+				flex: 100%;
+				max-width: 100%;
 
 			}
 			
