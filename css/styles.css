@@ -722,12 +722,7 @@ margin-right: 10%;
 margin-bottom: 5%;
 }
 
-.welcome:hover {
-background-color: #f8f8f8;
-border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
-}
 
 .circle {
 border-radius: 50%;
@@ -789,6 +784,7 @@ text-align: left;
 }
 
 .container3 {
+  box-sizing: border-box;
   border-radius: 10px;
   background-color: white;
   position: relative;
@@ -797,6 +793,9 @@ text-align: left;
 
 }
 
+.container3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 
 .text {
   color: white;
@@ -812,6 +811,7 @@ text-align: left;
 
 .text2 {
 padding: 10%;
+box-sizing: border-box;
 }
 
 lightg {
@@ -871,9 +871,6 @@ padding: 10%;
 background-color: black;
 }
 
-body2 {
-background-color: #ec9712;
-}
 
 .button5  {
   border: none;
@@ -1187,6 +1184,19 @@ top: 0;
 		padding: 2%;	
 		position: relative;	
 		}
+		.columnhalf3 {
+		margin: auto;
+		max-width: 75%;
+		padding: 5%;	
+		position: relative;	
+		
+		}
+		
+		.columnhomeright {
+		max-width: 30%;
+		margin: auto;
+		padding: 3%;
+		}
 		
 		.columnhalf {
 		max-width: 50%;
@@ -1440,7 +1450,12 @@ top: 0;
         background-attachment: scroll;
     }
 }
-
+			.columnhomeright {
+			-ms-flex: 100%;
+				flex: 100%;
+				max-width: 100%;
+				margin: auto;
+			}
 			.indexintro {
 				-ms-flex: 100%;
 				flex: 100%;
@@ -1460,6 +1475,14 @@ top: 0;
 		
 			
 			.columnapptext {
+				-ms-flex: 100%;
+				flex: 100%;
+				max-width: 100%;
+				margin: auto;
+
+			}
+			
+			.columnhalf3 {
 				-ms-flex: 100%;
 				flex: 100%;
 				max-width: 100%;
