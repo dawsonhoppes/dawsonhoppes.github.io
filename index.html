@@ -10,7 +10,14 @@
 	</head>
 	
 	
-	<body2>
+	<body>
+
+<div class="header">
+<div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div> 
+</div>
+
 
 <!-- navigation menu -->	
 	<div class="topnav">
@@ -25,10 +32,10 @@
 	
 			
 	<section class="colored">
-	<section class="welcome">
+	<section class="welcome grow">
 	<div class="row2">
 		<div class="columnleftsmall">
-		<img src="img/index/intro.png" class="grow" style="width: 100%">
+		<img src="img/index/intro.png" style="width: 100%">
 		</div>
 		<div class="indexintro">
 				<h15>Hello!</h15>
@@ -45,7 +52,7 @@
 	</section>
 	
 
-		
+	
 	<br>
 	<br>
 	<a href="divide.html"><div class="row">
@@ -112,10 +119,23 @@
 
 
 
-		
 
 	</body>
+	
+<script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+	
 	<footer>
+	
 	<br>
 	<br>
 	<br>
