@@ -1475,6 +1475,14 @@ text-decoration: none;
 
 			}
 			
+			.column4 {
+				-ms-flex: 100%;
+				flex: 100%;
+				max-width: 100%;
+				margin: auto;
+
+			}
+			
 		
 			
 			.columnapptext {
@@ -1490,6 +1498,7 @@ text-decoration: none;
 				flex: 100%;
 				max-width: 100%;
 				margin: auto;
+				padding: 1%;
 
 			}
 			
