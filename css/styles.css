@@ -1148,9 +1148,12 @@ top: 0;
 
 }
 
+a {
+text-decoration: none;
+}
 
-
-
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
 
 
 /*Photo Grid on Home Page*/
@@ -1186,7 +1189,7 @@ top: 0;
 		}
 		.columnhalf3 {
 		margin: auto;
-		max-width: 75%;
+		max-width: 65%;
 		padding: 5%;	
 		position: relative;	
 		
