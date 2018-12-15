@@ -1156,6 +1156,30 @@ text-decoration: none;
 .grow:hover { transform: scale(1.1); }
 
 
+.move {
+margin-left: 25%;
+}
+
+.move:hover {
+margin-left: 20%;
+}
+
+.hide {
+color: transparent;
+}
+
+.hide:hover {
+color: black;
+}
+
+.whitebox {
+
+}
+
+.whitebox:hover {
+border: 3px solid white;
+border-radius: 50px;
+}
 
 
 
