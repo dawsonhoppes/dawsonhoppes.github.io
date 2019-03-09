@@ -14,11 +14,6 @@
 	
 	<body>
 
-<div class="header">
-<div class="progress-container">
-    <div class="progress-bar" id="myBar"></div>
-  </div> 
-</div>
 
 
 <!-- navigation menu -->	
@@ -49,8 +44,8 @@
 		</div>
 	</div>
 	<Br>
-<div class="top">
-	<div id=mouse_body class="top">
+<div id="icon">
+	<div id=mouse_body>
   	<div id=mouse_wheel></div>
 	</div>
 </div>
@@ -151,17 +146,16 @@
 
 	
 <script>
-// When the user scrolls the page, execute myFunction 
-window.onscroll = function() {myFunction()};
-
-function myFunction() {
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
-};
-
-  
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("icon").style.top = "0";
+  } else {
+    document.getElementById("icon").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+} 
   
   </script>
 	
