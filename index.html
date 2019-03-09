@@ -49,9 +49,10 @@
 		</div>
 	</div>
 	<Br>
-	
-<div id=mouse_body>
-  <div id=mouse_wheel></div>
+<div class="top">
+	<div id=mouse_body class="top">
+  	<div id=mouse_wheel></div>
+	</div>
 </div>
 <!-- <div class="arrow">
                 <span></span>
@@ -136,11 +137,14 @@ function myFunction() {
   var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
-}
+};
 
-
-
-</script>
+$(window).scroll(function(){
+    $(".top").css("opacity", 1 - $(window).scrollTop() / 100);
+  });
+  
+  
+  </script>
 	
 </section>
 </html>
