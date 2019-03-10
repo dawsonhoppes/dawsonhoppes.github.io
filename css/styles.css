@@ -575,6 +575,15 @@ padding: 10%;
 
 }
 
+.prob3 {
+margin-top: 0%;
+margin-left: 0%;
+margin-right: 0%;
+margin-bottom: 0%;
+border: 1px solid #EC9712;
+padding: 10%;
+
+}
 
 
 .quote {
@@ -1470,6 +1479,13 @@ border-radius: 50px;
 		margin: auto;
 		text-align: left;
 		}
+		.columnapptextleft2 {
+		max-width: 45%;
+		padding: 4%;	
+		position: relative;	
+		margin: auto;
+		text-align: left;
+		}
 		
 		.indexintro {
 		max-width: 65%;
@@ -1743,6 +1759,13 @@ border-radius: 50px;
 			}
 			
 			.columnapptextleft {
+				-ms-flex: 100%;
+				flex: 100%;
+				max-width: 100%;
+
+			}
+			
+			.columnapptextleft2 {
 				-ms-flex: 100%;
 				flex: 100%;
 				max-width: 100%;
